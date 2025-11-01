@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <h1>My 3D & Graphic Design Portfolio</h1>
+  <p style="text-align:center;">
+    Biomedical Engineering student based in Saudi Arabia, passionate about digital design and 3D modeling.
+  </p>
+  <div class="gallery">
+    <img src="home 6.png" alt="3D Model 1">
+    <img src="shoe_.png" alt="Logo Design">
+    <img src="Tabel 1.jpg" alt="Render 1">
+  </div>
+</body>
+</html>
